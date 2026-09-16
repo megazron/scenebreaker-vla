@@ -1,4 +1,4 @@
-"""vla-scene-redteam: a defensive evaluation toolkit for scene-level attacks
+"""scenebreaker-vla: a defensive evaluation toolkit for scene-level attacks
 on vision-language-action robot policies.
 
 Test YOUR OWN policy, in simulation or replay, against the threat classes the

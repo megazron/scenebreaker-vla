@@ -1,4 +1,4 @@
-# vla-scene-redteam
+# SceneBreaker
 
 > **Scope and ethics.** This is a *defensive* evaluation toolkit. It red-teams
 > **your own** vision-language-action (VLA) policy, in simulation or replay,
@@ -13,7 +13,7 @@
 measures whether yours can be, and whether your defenses stop it.
 
 ```
-pip install git+https://github.com/megazron/vla-scene-redteam
+pip install git+https://github.com/megazron/scenebreaker-vla
 vla-redteam selftest
 ```
 
@@ -65,9 +65,9 @@ in your own.
 ## Install
 
 ```
-pip install git+https://github.com/megazron/vla-scene-redteam
+pip install git+https://github.com/megazron/scenebreaker-vla
 # development
-git clone https://github.com/megazron/vla-scene-redteam && cd vla-scene-redteam
+git clone https://github.com/megazron/scenebreaker-vla && cd scenebreaker-vla
 pip install -e . && python -m pytest -q
 ```
 

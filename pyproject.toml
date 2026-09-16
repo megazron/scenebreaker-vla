@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vla-scene-redteam"
+name = "scenebreaker-vla"
 version = "0.1.0"
 description = "Defensive scene-level red-teaming and defense evaluation for vision-language-action robot policies"
 readme = "README.md"
@@ -14,7 +14,7 @@ keywords = ["vla", "robot-safety", "adversarial-robustness", "red-team", "embodi
 dependencies = ["numpy", "pyyaml"]
 
 [project.urls]
-Homepage = "https://github.com/megazron/vla-scene-redteam"
+Homepage = "https://github.com/megazron/scenebreaker-vla"
 
 [project.scripts]
 vla-redteam = "vla_scene_redteam.cli:main"
