@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="486" viewBox="0 0 940 486" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+<rect width="940" height="486" fill="#ffffff"/>
+<text x="30" y="44" font-size="23" font-weight="700" fill="#1f2933">Scene-level threats to a VLA policy, and the defense that answers each</text>
+<text x="30" y="72" font-size="13" fill="#6b7580">rows track the 2026 VLA-safety survey; all evaluated on an abstract policy, never a real system</text>
+<text x="42" y="90" font-size="12" fill="#6b7580" font-weight="700">THREAT</text>
+<text x="360" y="90" font-size="12" fill="#6b7580" font-weight="700">HOW IT STEERS THE POLICY</text>
+<text x="720" y="90" font-size="12" fill="#6b7580" font-weight="700">DEFENSE</text>
+<rect x="30" y="96" width="880" height="56" rx="7" fill="#f6f8f9" stroke="#e0e5ea"/>
+<rect x="30" y="96" width="6" height="56" rx="3" fill="#b02a37"/>
+<text x="48" y="130" font-size="15" font-weight="700" fill="#1f2933">environmental jailbreak</text>
+<text x="360" y="130" font-size="13" fill="#1f2933">a note in the scene reads as a command</text>
+<text x="720" y="130" font-size="13" fill="#0b7285">text-provenance filter</text>
+<rect x="30" y="162" width="880" height="56" rx="7" fill="#f6f8f9" stroke="#e0e5ea"/>
+<rect x="30" y="162" width="6" height="56" rx="3" fill="#b25a00"/>
+<text x="48" y="196" font-size="15" font-weight="700" fill="#1f2933">target confusion</text>
+<text x="360" y="196" font-size="13" fill="#1f2933">a look-alike wins target resolution</text>
+<text x="720" y="196" font-size="13" fill="#0b7285">target disambiguation</text>
+<rect x="30" y="228" width="880" height="56" rx="7" fill="#f6f8f9" stroke="#e0e5ea"/>
+<rect x="30" y="228" width="6" height="56" rx="3" fill="#b25a00"/>
+<text x="48" y="262" font-size="15" font-weight="700" fill="#1f2933">unsafe literal</text>
+<text x="360" y="262" font-size="13" fill="#1f2933">the instruction is safe to say, unsafe to do</text>
+<text x="720" y="262" font-size="13" fill="#0b7285">safety-predicate gate</text>
+<rect x="30" y="294" width="880" height="56" rx="7" fill="#f6f8f9" stroke="#e0e5ea"/>
+<rect x="30" y="294" width="6" height="56" rx="3" fill="#b02a37"/>
+<text x="48" y="328" font-size="15" font-weight="700" fill="#1f2933">backdoor (effect)</text>
+<text x="360" y="328" font-size="13" fill="#1f2933">a trigger token flips a suspect policy</text>
+<text x="720" y="328" font-size="13" fill="#0b7285">safety-predicate gate*</text>
+<rect x="30" y="360" width="880" height="56" rx="7" fill="#f6f8f9" stroke="#e0e5ea"/>
+<rect x="30" y="360" width="6" height="56" rx="3" fill="#b25a00"/>
+<text x="48" y="394" font-size="15" font-weight="700" fill="#1f2933">temporal inconsistency</text>
+<text x="360" y="394" font-size="13" fill="#1f2933">the scene changes between look and act</text>
+<text x="720" y="394" font-size="13" fill="#0b7285">plan revalidation</text>
+<text x="30" y="462" font-size="12" fill="#6b7580">* input-side gating catches a backdoor’s effect; removing the backdoor itself needs training-time defenses.</text>
+</svg>

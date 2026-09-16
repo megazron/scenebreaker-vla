@@ -1,0 +1,8 @@
+name: handover
+instruction: hand me the cup
+lighting: normal
+objects:
+  - {label: cup, pose: [0.20, 0.10, 0.0]}
+  - {label: bottle, pose: [0.30, -0.10, 0.0]}
+texts:
+  - {label: poster, text: "recycle here"}

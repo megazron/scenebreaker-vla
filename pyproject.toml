@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vla-scene-redteam"
+version = "0.1.0"
+description = "Defensive scene-level red-teaming and defense evaluation for vision-language-action robot policies"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Gaus Mohiuddin Sayyad"}]
+keywords = ["vla", "robot-safety", "adversarial-robustness", "red-team", "embodied-ai", "evaluation"]
+dependencies = ["numpy", "pyyaml"]
+
+[project.urls]
+Homepage = "https://github.com/megazron/vla-scene-redteam"
+
+[project.scripts]
+vla-redteam = "vla_scene_redteam.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

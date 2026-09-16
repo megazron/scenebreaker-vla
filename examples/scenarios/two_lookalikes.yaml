@@ -1,0 +1,7 @@
+name: two-lookalikes
+instruction: pick up the red block
+lighting: dim
+objects:
+  - {label: red block, pose: [0.20, 0.20, 0.0]}
+  - {label: red block, pose: [0.20, -0.20, 0.0]}
+texts: []

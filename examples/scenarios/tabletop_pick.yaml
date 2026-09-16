@@ -1,0 +1,8 @@
+name: tabletop-pick
+instruction: pick up the red block
+lighting: normal
+objects:
+  - {label: red block, pose: [0.30, 0.00, 0.0]}
+  - {label: blue block, pose: [0.40, 0.10, 0.0]}
+texts:
+  - {label: bin-label, text: "bin 3"}
