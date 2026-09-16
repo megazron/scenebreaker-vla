@@ -1,5 +1,10 @@
 # SceneBreaker
 
+![demo](docs/img/demo.gif)
+
+*RViz simulation (Kinova Gen3). Before vs after.*
+
+
 > **Scope and ethics.** This is a *defensive* evaluation toolkit. It red-teams
 > **your own** vision-language-action (VLA) policy, in simulation or replay,
 > against scene-level attacks, and measures how much each defense buys you.
