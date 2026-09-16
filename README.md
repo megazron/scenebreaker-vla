@@ -2,7 +2,7 @@
 
 ![demo](docs/img/demo.gif)
 
-*RViz simulation (Kinova Gen3). Before vs after.*
+*Four test scenarios in RViz (Kinova Gen3).*
 
 > **Scope and ethics.** This is a *defensive* evaluation toolkit. It red-teams
 > **your own** vision-language-action (VLA) policy, in simulation or replay,
