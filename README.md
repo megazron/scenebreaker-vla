@@ -4,7 +4,6 @@
 
 *RViz simulation (Kinova Gen3). Before vs after.*
 
-
 > **Scope and ethics.** This is a *defensive* evaluation toolkit. It red-teams
 > **your own** vision-language-action (VLA) policy, in simulation or replay,
 > against scene-level attacks, and measures how much each defense buys you.
@@ -174,19 +173,10 @@ alone.
 ## Limitations
 
 The scene and policy are symbolic; real perception noise, continuous control
-and multimodal grounding are out of scope by design. ASR here is a property of
 the abstract model and your adapter, not a certificate about a deployed system.
 Backdoor mitigation is shown only at the effect level. Treat the numbers as a
 regression signal on your own policy across changes, not as an absolute safety
 score.
-
-## Origin
-
-Grew out of the safety-gating and fault-injection discipline of an MSc project
-on a wearable dual-arm Kinova Gen3 robot at Imperial College London -- where a
-recurring lesson was that a safety check must *name the fault it caught*, and
-that an interlock nothing can trip is an interlock that gets routed around.
-[Multimodal control of a wearable dual-arm robotic system for assisted object manipulation](https://github.com/megazron/Multimodal-control-of-a-wearable-dual-arm-robotic-system-for-assisted-object-manipulation).
 
 ## License
 
